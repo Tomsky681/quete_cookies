@@ -6,7 +6,7 @@ if (empty($_SESSION['loginname'])){
     header ("location: login.php");
     exit();
 }
-
+//test
 $panier = $_COOKIE["panier"];
 
 if (!empty($_GET)) {
